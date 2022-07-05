@@ -90,7 +90,7 @@ class BaseLassoNet(BaseEstimator, metaclass=ABCMeta):
             Note: lambda_start and path_multiplier will be ignored.
         gamma : float, default=0.0
             l2 penalization on the network
-        gamma : float, default=0.0
+        gamma_skip : float, default=0.0
             l2 penalization on the skip connection
         path_multiplier : float, default=1.02
             Multiplicative factor (:math:`1 + \\epsilon`) to increase
